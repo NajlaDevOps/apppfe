@@ -9,6 +9,8 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "test": "npm test",
+     "testi": "mocha",
+    "test:integration": "mocha tests/integration"
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
